@@ -1,0 +1,165 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0 auto;
+    padding: auto;
+}
+
+/* Baseline Elements */
+
+.masthead {
+    font-family: "Droid Serif", serif;
+    text-align: left;
+    background-color: #9B311B;
+}
+
+h1 {
+    padding: 0.5em 0 0.5em 1rem;
+    color: white;
+    font-size: 7vmin;
+}
+
+h2 {
+    padding: 0 0 0.5em 1rem;
+    color: #F5C2B8;
+    font-size: 5vmin;
+}
+
+main {
+    font-family: "Open Sans", sans-serif;
+}
+
+#wrapper {
+    height: 300px;
+    padding: 1em;
+    color: white;
+    background-color: #B6543F;
+}
+
+label {
+    padding-right: 1em;
+}
+
+footer {
+    height:50px;
+    background-color: #9B311B;
+}
+
+/*Width settings */
+
+@media (max-width: 35em) {
+
+    input {
+        margin: 1em 10% 1em 10%;
+        float:left;
+        clear: both;
+    }
+    
+    input[type=text] {
+        width: 80%;
+    }
+    
+    input[type=email] {
+        width: 80%;
+    }
+    
+    input[type=url] {
+        width: 80%;
+    }
+
+    input[type=password] {
+        width: 80%;
+    }
+    
+    label {
+        visibility: hidden;
+    }
+    
+    input[type=submit] {
+        width: 100px;
+    }
+    
+    input[type=reset] {
+        width: 100px;
+    }
+}
+
+@media (min-width: 35em) and (max-width: 60em) {
+    
+    label {
+        float: left;
+        clear: both;
+    }
+    
+    input {
+        width: 80%;
+        float: left;
+        clear: both;
+        margin: 1em 1em 2em 0;
+    }
+    
+    input[type=submit] {
+        width: 100px;
+    }
+    
+    input[type=reset] {
+        width: 100px;
+    }
+    
+    form {
+        margin-top: 1em;
+    }
+    
+    #forms12 {
+        width: 50%;
+        float: left;
+    }
+    
+    #forms34 {
+        width: 50%;
+        float: left;
+    }
+    
+    #buttons {
+        float: left;
+        clear: both;
+    }
+}
+
+@media (min-width: 60.00001em) {
+    
+    input {
+        width: 25%;
+        margin-right: 10%;
+        margin-bottom: 3em;
+    }
+    
+    form {
+        margin-top: 1em;
+    }
+    
+    #forms12 {
+        width: 100%
+        float: left;
+        clear: both;
+    }
+    
+    #forms34 {
+        width: 100%
+        float:left;
+        clear:both;
+    }
+  
+    input[type=submit] {
+        margins: 0;
+        width: 100px;
+    }
+    
+    input[type=reset] {
+        margins: 0;
+        width: 100px;
+    }
+    
+}
